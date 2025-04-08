@@ -1,30 +1,51 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="bg-amber-50">
+    <Navbar />
+    <router-view></router-view>
+    <Footer />
+
+    <button
+      v-show="showScrollButton"
+      @click="scrollToTop"
+      class="fixed z-50 bottom-6 right-6 w-14 h-14 bg-gray-600 hover:bg-orange-600 text-white rounded-full shadow-lg transition-opacity duration-1000"
+    >
+      <i class="fa-solid fa-arrow-up text-xl"></i>
+    </button>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+import Navbar from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
+
+const showScrollButton = ref(false);
+let scrollTimeout = null;
+
+const handleScroll = () => {
+  showScrollButton.value = true;
+
+  // Nếu người dùng không cuộn trong 2 giây => Ẩn nút
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    showScrollButton.value = false;
+  }, 2000);
+};
+
+// Hàm cuộn lên đầu trang
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+// Gắn sự kiện khi component được tạo
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+// Xóa sự kiện khi component bị hủy
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+</script>
+
+<style scoped></style>
