@@ -41,9 +41,10 @@
             renewed confidence and tactics to help your business thrive.
           </p>
           <button
+            @click="openForm = true"
             class="w-1/2 lg:w-1/3 bg-gray-800 text-white px-6 py-3 rounded-lg text-lg hover:bg-black inline-block"
           >
-            Lern More
+            Get Started
           </button>
         </div>
 
@@ -121,11 +122,13 @@
             </p>
           </div>
           <div>
-            <button
-              class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
-            >
-              Learn now
-            </button>
+            <a href="/service">
+              <button
+                class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
+              >
+                Learn now
+              </button>
+            </a>
           </div>
         </div>
         <div class="flex flex-col items-center gap-14">
@@ -137,11 +140,13 @@
             </p>
           </div>
           <div>
-            <button
-              class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
-            >
-              Learn now
-            </button>
+            <a href="/service">
+              <button
+                class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
+              >
+                Learn now
+              </button>
+            </a>
           </div>
         </div>
         <div class="flex flex-col items-center gap-14">
@@ -153,11 +158,13 @@
             </p>
           </div>
           <div>
-            <button
-              class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
-            >
-              Learn now
-            </button>
+            <a href="/service">
+              <button
+                class="md:block bg-black text-white py-3 px-8 rounded-lg text-lg hover:opacity-50"
+              >
+                Learn now
+              </button>
+            </a>
           </div>
         </div>
       </div>

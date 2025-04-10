@@ -20,7 +20,7 @@
 
       <div class="lg:w-1/3 mt-6">
         <a href="" class="flex space-x-2">
-          <img :src="logo_footer" class="w-auto h-32" />
+          <img :src="logo_footer" class="w-auto h-28" />
         </a>
       </div>
 

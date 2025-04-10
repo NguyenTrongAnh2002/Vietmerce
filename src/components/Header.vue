@@ -13,6 +13,14 @@
 
       <nav class="hidden md:flex space-x-8 text-lg">
         <a
+          href="/"
+          class="hover:underline"
+          :class="{
+            'font-bold text-orange-600  ': isActive('/'),
+          }"
+          >HOME</a
+        >
+        <a
           href="/about"
           class="hover:underline"
           :class="{
