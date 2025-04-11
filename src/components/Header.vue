@@ -141,8 +141,7 @@ import { RouterLink } from "vue-router";
 const navlinks = ref([
   { href: "#", name: "HOME" },
   { href: "#", name: "ABOUT" },
-  { href: "#", name: "PORTFOLIO" },
-  { href: "#", name: "BLOG" },
+  { href: "#", name: "SERVICE" },
   { href: "#", name: "CONTACT US" },
 ]);
 
