@@ -18,7 +18,123 @@
   </section>
 
   <section>
+    <div class="w-3/4 mx-auto">
+      <div class="my-16">
+        <div class="flex justify-center items-center gap-3">
+          <div class="flex-1 h-px bg-gray-300"></div>
+          <h1 class="text-2xl md:text-4xl font-bold text-center">ABOUT US</h1>
+          <div class="flex-1 h-px bg-gray-300"></div>
+        </div>
+        <div class="text-center mt-8 opacity-80">
+          <p>
+            Every great brand starts with a simple idea. For us, it was the
+            desire to bring high-quality products, sophisticated designs, and a
+            modern shopping experience to our customers.
+          </p>
+        </div>
+        <div class="text-center mt-8 opacity-80">
+          <p>
+            Starting as a small store in 2018, we quickly realized that
+            e-commerce is not just about selling products—it’s about telling a
+            story, connecting with customers, and delivering real value. With
+            passion and creativity, we have grown into a trusted e-commerce
+            brand, serving thousands of customers worldwide.
+          </p>
+        </div>
+        <div class="text-center mt-8 opacity-80">
+          <p>
+            Beyond just products, we are committed to sustainability and social
+            responsibility. Every item we create is more than just a
+            product—it’s a part of a story about style, quality, and
+            long-lasting value.
+          </p>
+        </div>
+        <div class="h-px bg-gray-300 mt-8"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="bg-orange-800 text-white">
+      <div
+        class="w-4/5 h-[80vh] mx-auto flex flex-col gap-10 items-center justify-evenly"
+      >
+        <div class="mt-">
+          <h1 class="font-semibold text-7xl">Core Value && Mission</h1>
+        </div>
+        <div class="flex flex-col gap-20 justify-center items-center">
+          <div class="flex justify-between">
+            <div class="flex w-[30%] flex-col items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">Top-notch Quality</h1>
+                <p>
+                  Every product is designed and crafted to the highest standards
+                  to ensure the best customer experience.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-[30%] items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">
+                  Customer-Centric Approach
+                </h1>
+                <p>
+                  We always listen and continuously improve to provide the best
+                  service for our customers.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-[30%] items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">Creativity & Innovation</h1>
+                <p>
+                  Constantly seeking new ideas and trends to deliver unique and
+                  distinctive products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-between">
+            <div class="flex flex-col w-[30%] items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">
+                  Sustainability & Responsibility
+                </h1>
+                <p>
+                  Committed to minimizing environmental impact, using
+                  eco-friendly materials, and giving back to the community.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-[30%] items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">Honesty & Transparency</h1>
+                <p>
+                  We prioritize transparency in our business, from production
+                  processes to customer service.
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col w-[30%] items-center gap-14">
+              <div class="text-center flex flex-col gap-5">
+                <h1 class="font-semibold text-2xl">Passion & Dedication</h1>
+                <p>
+                  Our team is driven by passion and commitment to excellence in
+                  every aspect of our work.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <div class="py-20">
+      <div class="text-center mt-10 mb-20">
+        <h2 class="text-5xl font-bold text-gray-800 mb-4">OUR FOUNDERS</h2>
+      </div>
       <div
         class="w-3/4 mx-auto md:px-10 flex flex-col gap-20 lg:flex-row items-center"
       >
@@ -69,53 +185,8 @@
           <img :src="about_2" alt="wrapper" class="rounded-lg shadow-lg" />
         </div>
       </div>
-    </div>
-  </section>
 
-  <section>
-    <div class="bg-orange-800 text-white">
-      <div
-        class="w-4/5 h-[70vh] mx-auto flex flex-col gap-10 items-center justify-evenly"
-      >
-        <div class="flex flex-col items-center gap-5">
-          <h1 class="font-semibold text-7xl">We can help</h1>
-        </div>
-        <div class="flex gap-20 items-center">
-          <div class="flex flex-col items-center gap-14">
-            <div class="text-center flex flex-col gap-5">
-              <h1 class="font-semibold text-2xl">
-                Beginner’s Guide to Business
-              </h1>
-              <p>
-                Receive expert tips for getting started, a checklist for your
-                first year of business, and helpful follow-up links.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col items-center gap-14">
-            <div class="text-center flex flex-col gap-5">
-              <h1 class="font-semibold text-2xl">
-                Beginner’s Guide to Business
-              </h1>
-              <p>
-                Receive expert tips for getting started, a checklist for your
-                first year of business, and helpful follow-up links.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col items-center gap-14">
-            <div class="text-center flex flex-col gap-5">
-              <h1 class="font-semibold text-2xl">
-                Beginner’s Guide to Business
-              </h1>
-              <p>
-                Receive expert tips for getting started, a checklist for your
-                first year of business, and helpful follow-up links.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="h-px mx-auto bg-gray-500 mt-28"></div>
     </div>
   </section>
 </template>

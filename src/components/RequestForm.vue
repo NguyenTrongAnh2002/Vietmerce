@@ -121,7 +121,7 @@ const submitForm = async () => {
 
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbyVHptmgvdYmj85wBkeYT8ZJtXzyJ1L2aQz3kLBXoonGupyA9_5fo_5yo1GW0RmSCp0/exec",
+      "https://script.google.com/macros/s/AKfycby6VELsyhQ-rYMsbnz4HJ5a7ONqkd8RbATv0IZGP6G6lzUVH9sQK7Nsgpq6HxxqpgJk/exec",
       {
         method: "POST",
         body: formDataToSend,
