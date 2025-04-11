@@ -8,7 +8,7 @@
 
       <!-- Nội dung -->
       <div
-        class="relative z-10 flex flex-col items-center gap-20 justify-center h-full"
+        class="relative flex flex-col items-center gap-20 justify-center h-full"
       >
         <h1 class="text-white w-4/5 text-7xl font-bold text-center">
           VietNam based eCommerce for global market brand

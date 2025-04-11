@@ -8,7 +8,7 @@
 
       <!-- Nội dung -->
       <div
-        class="relative z-10 flex flex-col items-center gap-20 justify-end h-full"
+        class="relative flex flex-col items-center gap-20 justify-end h-full"
       >
         <h1 class="text-white w-9/12 text-7xl font-normal mb-20">
           We’re passionate about helping you grow and make an impact.
@@ -136,12 +136,8 @@
         <h2 class="text-5xl font-bold text-gray-800 mb-4">OUR FOUNDERS</h2>
       </div>
       <div
-        class="w-3/4 mx-auto md:px-10 flex flex-col gap-20 lg:flex-row items-center"
+        class="w-3/4 mx-auto md:px-10 flex flex-col gap-20 lg:flex-row-reverse items-center"
       >
-        <div class="lg:w-2/5 px-6">
-          <img :src="about_1" alt="wrapper" class="rounded-lg shadow-lg" />
-        </div>
-
         <div
           class="lg:w-1/2 w-full flex flex-col lg:gap-20 px-6 mt-6 lg:mt-0 text-left"
         >
@@ -155,6 +151,10 @@
             have the pleasure of working with aspiring business owners and
             entrepreneurs from all over the world.
           </p>
+        </div>
+
+        <div class="lg:w-2/5 px-6">
+          <img :src="about_1" alt="wrapper" class="rounded-lg shadow-lg" />
         </div>
       </div>
     </div>

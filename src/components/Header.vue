@@ -68,7 +68,7 @@
       <transition name="slide">
         <div
           v-if="isMenuOpen"
-          class="fixed top-0 right-0 h-full w-3/4 max-w-xs bg-black text-white shadow-lg transform transition-transform duration-300 ease-in-out"
+          class="fixed z-10 top-0 right-0 h-full w-3/4 max-w-xs bg-black text-white shadow-lg transform transition-transform duration-300 ease-in-out"
         >
           <!-- Nút đóng -->
           <button
@@ -112,17 +112,12 @@
               ABOUT
             </a>
             <a
-              href="/portfolio"
+              href="/service"
               class="py-3 px-6 border-b border-gray-700 w-full hover:bg-gray-800"
             >
-              PORTFOLIO
+              SERVICE
             </a>
-            <a
-              href="/blog"
-              class="py-3 px-6 border-b border-gray-700 w-full hover:bg-gray-800"
-            >
-              BLOG
-            </a>
+
             <a href="/contact" class="py-3 px-6 w-full hover:bg-gray-800">
               CONTACT US
             </a>
